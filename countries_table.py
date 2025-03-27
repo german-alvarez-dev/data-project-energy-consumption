@@ -29,5 +29,5 @@ def clean_dataframe(df):
 
 
 def create_csv(df, path):
-    df.to_csv(path, encoding="utf-8", index=False)
+    df.to_csv('new_countries_2.csv', index=False)
     return None

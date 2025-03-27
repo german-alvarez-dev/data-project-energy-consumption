@@ -9,6 +9,4 @@ def load_csv():
 
     df_filtered.columns = df_filtered.columns.str.replace(' ', '_').str.replace('(', '_').str.replace(')', '')
 
-    df_filtered.to_csv('energy_type.csv', encoding="utf-8", index=False)
-
     return df_filtered
